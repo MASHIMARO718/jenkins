@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @Date 2019/5/13
  */
 @RestController
-public class TestController {
+public class TestController3 {
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String test(){
-        System.out.println("12222");
-        System.out.println("22212");
-        System.out.println("12222");
+        System.out.println("12");
+        System.out.println("12");
+        System.out.println("12");
         System.out.println("12");
         System.out.println("12");
         return "hello jenkins jmh";

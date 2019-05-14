@@ -15,6 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String test(){
+        System.out.println("12");
+        System.out.println("12");
+        System.out.println("12");
+        System.out.println("12");
+        System.out.println("12");
         return "hello jenkins jmh";
     }
 }
